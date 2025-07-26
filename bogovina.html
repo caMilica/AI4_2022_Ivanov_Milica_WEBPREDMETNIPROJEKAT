@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Боговинска пећина</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!--
+    Milica Ivanov AI 4/2022
+    Animacija u inženjerstvu 
+    Predmetni projekat Web dizajn
+-->
+
+
+
+<!--ovo povezuje css sa html-om-->
+  <link rel="stylesheet" type="text/css" href="PP.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+</head>
+
+
+<body>
+
+<!--pocetak navigacije--> 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"><!--navbar-dark - svetli tekst    bg-dark - tamna pozadina-->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="#"><img src="./slike/logo-no-background.png" alt="logo boljevca" height="50px"></a>
+    </div>
+
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nNavbarDropdown" aria-controls="nNavbarDropdown" aria-expanded="false" aria-aria-label="Navigacija toggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nNavbarDropdown">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><!--ms-auto je poravnao sa desne strane-->
+      <li class="nav-item"><a class="nav-link" href="pocetna.html">Почетна</a></li>
+      <li class="nav-item"><a class="nav-link" href="istorijat.html">Историја</a></li>
+
+
+      <li class="nav-item dropdown">
+        <a href="turizam.html" class="nav-link dropdown-toggle active" id="navbarDropdown" data-bs-toggle="dropdown" area-expanded="false">
+          Туризам
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="rtanj.html">Ртањ</a></li>  
+          <li><a class="dropdown-item" href="krivivir.html">Криви Вир</a></li>
+          <li><a class="dropdown-item" href="ilino.html">Илино</a></li>
+          <li class="active"><a class="dropdown-item"  aria-current="page" href="#">Боговинска пећина</a></li>
+        </ul>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a href="kulturna dobra.html" class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" area-expanded="false">Култура</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="muzej.html">Музеј</a></li>
+          <li><a class="dropdown-item" href="crkva.html">Црква</a></li>
+          <li><a class="dropdown-item" href="manastiri.html">Манастири</a></li>
+          <li><a class="dropdown-item" href="crnorecje.html">Црноречје у песми и игри</a></li>
+        </ul>
+      </li>
+
+    </ul>    
+  </div>
+</div>
+</nav>
+<!--ovde je kraj navigacije-->
+
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-1">      
+    </div>
+    <div class="col-sm-10 main-content">
+      <h1 class="manjiNaslov">Боговинска пећина</h1>
+
+      <img class="img-tumbnail rounded float-end m-2" width="35%" src="./slike/bogovinska-pecina5.jpg" alt="pecina">
+
+      
+
+      <p>
+        Боговинска пећина се налази у источној Србији и једна је од најдужих пећина у том делу земље. Укупна дужина пећинских канала износи 5020 m. Дужина уређеног дела пећине износи 550 m, а површина 2201 m².        
+      </p>
+
+      <ul>
+        <li class="lead"><a href="#polozajBG"><b class="veciBoldovaniTekst">Положај</b></a></li>
+        <li class="lead"><a href="#istrazivanjaBG"><b class="veciBoldovaniTekst">Досадашња истраживања</b></a></li>
+        <li class="lead"><a href="#geoSastavBG"><b class="veciBoldovaniTekst">Геолошки састав</b></a></li>
+        <li class="lead"><a href="#speleoloskeKarakteristikeBG"><b class="veciBoldovaniTekst">Спелеолошке карактеристике</b></a></li>
+        <li class="lead"><a href="#turizamBG"><b class="veciBoldovaniTekst">Туристички садржај</b></a></li>
+        <li class="lead"><a href="#galerijaBG"><b class="veciBoldovaniTekst">Галерија</b></a></li>
+      </ul>
+
+      
+      <p id="polozajBG"><b class="veciBoldovaniTekst">Положај</b><br>
+        Боговинска пећина налази се у југоисточном подножју Кучајских планина. Удаљена је око 2 km од рудника угља „Боговина“, макадамским путем. Од Бољевца је удаљена око 14 km, а од магистралног пута Параћин-Зајечар 6 km.<br>
+        Улаз у пећину налази се на територији ЈП „Србија шуме“. Инфоцентар, са водичком службом и угоститељским услугама, смештен је у ловачкој кући, на око 200 m од улаза.<br>
+        До улаза у пећину изграђена је пешачка стаза. Пре двадесетак година, Боговинска пећина била је најдужа пећина у Србији - 5020 m и међу најдужим пећинама у бившој Југославији. Истовремено, то је била једина велика пећина у Србији, која није била уређена за туристичке посете.        
+      </p>
+
+      
+      <p id="istrazivanjaBG"><b class="veciBoldovaniTekst">Досадашња истраживања</b><br>
+        Боговинска пећина била је објекат истраживања бројних спелеолошких екипа због дужине и квалитета пећинског накита.<br>
+        Детаљно је истражена и објашњена њена морфогенеза, али није располагала идејним пројектом за коришћење у туризму, ни делимично, ни у целини. Главни истраживачи који су објавили своје научне резултате су: С. М. Милојевић (1938), Драгутин Петровић (1957, 1977), Д. Петровић, Душан Гавриловић, Милутин Љешевић (1978), Д. Гавриловић (1960).<br>
+        У току вишегодишњег истраживања, наведени аутори, детаљно су обрадили спелеоморфологију пећине и објаснили њену генезу - начин постанка и еволуцију и учинили много за њену афирмацију у стручним круговима и јавности. Сем тога, на светлост дана донели су фотографије фасцинантног пећинског накита, који нема ни једна друга велика пећина. Од тада је прошло скоро 30 година, када је Р. Лазаревић (2007) истражио улазни потез пећине у дужини од 821 m и урадио пројекат по којем је пећина уређена за туристичке посете.<br>
+        Било је и других истраживача (АСАК, 1984, 1985), али њихови резултати нису били доступни.<br>
+        У вези са истраживањем Боговинске пећине, посебно изненађује чињеница да Јован Цвијић није знао за ову тада најдужу пећину. На територији општине Бољевац, истраживао је више пећина у сливу Радованске реке, затим Леденицу на Ртњу, Девојачку пећину код Подгорца и више пута је био у близини Боговинске пећине. Разлог је што га мештани нису обавестили. Чували су је за своје потребе: склониште, збегови. У то време био је познат само улаз у пећину (око 1000 m), а даље се могло само кроз водени сифон. Али у току сушних година, када вода отекне или пресахне, могло се ући у главни канал.<br><br>
+
+        <img class="img-tumbnail rounded float-end m-2" width="35%" src="./slike/bogovinska-pecina2.jpg" class="slikaDesno">
+
+        С. М. Милојевић (1938) указао је на значај брахиклаза(кратке пукотине које секу само један кречњачки слој), на појаву меандара у Главном каналу Боговинске пећине. Д. Петровић (1957) истражио је Боговинску пећину у дужини од 3118 m и истакао главне етапе њене морфолошке еволуције. По њему садашњи виглед (отвор на таваници) био је узлазни извор Боговинске реке, која је протицала кроз пећину. У каснијим истраживањима открио је још неке делове Боговинске пећине и на тај начин повећао дужину пећине на 3157 m (1961).<br>
+        Д. Гавриловић (1960) истражио је подземну хидрографску везу, између понора подземне Боговинске реке и извора, који се јављају у галеријама рудника угља „Боговина“. Д. Петровић, Д. Гавриловић и М. Љешевић, у току 1975-1976. године. открили су нове пећинске канале, у дужини од 1503 m, тако да укупна дужина Боговинске пећине износи 5020 m. Р. Лазаревић, Бошко Пауновић и Света Илић, истражили су предвиђени део пећине, од 7- 11. фебруара 2007. године.<br>
+        Поред њих, у истраживању су учествовали и рудари. Посебну помоћ пружио је рудник угља.
+        2020. године су објављени фосилни остаци (зуби) изумрлог плеистоценског носорога Stephanorhinus hundsheimensis (Toula, 1902) пореклом из Боговинске пећине, што је прва документована појава ове врсте на територији Србије.<br>
+      </p>
+
+      <p id="geoSastavBG"><b class="veciBoldovaniTekst">Геолошки састав</b><br>
+        Боговинска пећина претежно је изграђена у мезозојским кречњацима средње и горње јуре и доње креде.<br>
+        Максимална дебљина кречњака, у зони пећине износи 170 m. Висинска разлика између улаза у пећину и тачке 50 (најдаљег истраженог дела), износи око 5 m.<br>
+        Пећинска река која протиче кроз пећину, доноси ситан песак и ситан шљунак, који су пореклом од палеозојских шкриљаца, од којих је изграђен слив Боговинске реке, која понире на контакту са кречњацима, а при великим водама тече површинским коритом.<br>
+      </p>
+
+      <p id="speleoloskeKarakteristikeBG"><b class="veciBoldovaniTekst">Спелеолошке карактеристике</b><br>
+        Боговинска пећина је речна, периодично активна пећина. Изградиле су је подземне воде, које долазе из слива Боговинске реке, а пониру у кањону те реке, која у луку обухвата крашку плочу, у којој се налази сложен пећински систем. Кроз пећину протичу и воде које падају на крашку плочу, ту пониру и подземно отичу.<br>
+        Улаз у пећину има облик рударског окна, ширине око 4 m и висине 5,35 m. Улаз је на висини од 268,3 m. Д. Петровић, у Боговинској пећини разликује три хоризонта пећинских канала: Високи, Главни и Понорски. Према хидрографској функцији, могу се звати: Суви, Периодски и Речни систем. Високи или Суви хоризонт је најстарији пећински систем, који се састоји од сплета канала и дворана.<br>
+        Његово дно је на више места проваљено и вертикално повезано са Главним или Периодским каналом. Главни или Периодски хоризонт је најмаркантнији морфолошки елемент у Боговинској пећини. Дугачак је 2650 m. Почиње од сифонског врела на крају пећине, на висини од 276,5 m, а завршава се на улазу у пећину на коти 268,3 m. Сифонско врело ниже је од корита Боговинске реке 50 m, при хоризонталном растојању од око 100 m. Понорски или речни хоризонт је најнижи и најмлађи систем Боговинске пећине. Од дна Главног канала нижи је за десетак метара. доступан је само местимично, тамо где је дно Главног канала пробијено. Корални канал са Двораном кристала имају највише пећинског накита. Припадају Сувом хоризонту и налазе се на крају система Боговинске пећине.<br>
+      </p>
+
+      <p id="turizamBG"><b class="veciBoldovaniTekst">Туристички садржај</b><br>
+        При уређењу Боговинске пећине, биле су у оптицају две варијанте. Према првој из 1978. године требало је да буде изграђена једносмерна туристичка стаза, по којој би се посетиоци кретали Главним каналом, у дужини од око 350 m. Након тога, наилазили би на терасна проширења, пролазили кроз раскошни пећински накит и силазили у Главни канал, око 150 m од улаза. Тај део стазе био би двосмеран.<br>
+        Ово решење је изгледало веома примамљиво, али се од њега одустало јер би веома угрожавало пећински накит. Ипак, стаза је изграђена према другој варијанти. Њена дужина прелази 1000 m, двосмерна је и прати Главни канал, при чему је обезбеђен излазак на три терасна проширења: Рударска дворана, Дворана дивова и Хајдучка дворана. На овај начин пећински накит је заштићен од евентуалног оштећења. Стаза је виша од корита Пећинске реке 0,5 m, а ширина је 1,0-1,5 m.<br>        
+      </p>
+
+      <p id="galerijaBG"><b class="veciBoldovaniTekst">Галерија</b></p>
+      <div class="container">
+       <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card">
+            <div class="kontejnerSlike">
+              <img class="card-img-top" src="./slike/bogovinska-pecina5.jpg" alt="pecina">
+              <div class="textSlike">Улаз у Боговинску пећину</div>            
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="kontejnerSlike">
+            <img class="card-img-top" src="./slike/bogovinska-pecina2.jpg" alt="crkva1">
+            <div class="textSlike">Унутрашњост боговинске пећине</div>            
+          </div>              
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card">
+            <div class="kontejnerSlike">
+              <img class="card-img-top" src="./slike/bogovinska-pecina3.jpg" alt="crkva1">
+              <div class="textSlike">Унутрашњост боговинске пећине</div>            
+            </div>   
+          </div>           
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card">
+            <div class="kontejnerSlike">
+              <img class="card-img-top" src="./slike/bogovinska-pecina4.jpg" alt="pecina4">
+              <div class="textSlike">Пећински накит у Боговинској пећини</div>            
+            </div>
+          </div>              
+        </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="col-sm-1">
+      
+    </div>
+  </div>
+</div>
+
+
+  <footer class="footer">
+    <p>Милица Иванов, <a href="mailto:milica.ivanov.03@gmail.com"> milica.ivanov.03@gmail.com</a></p>
+  </footer>
+
+<script src="java.js"></script>
+
+<div class="lightbox" id="lightbox">
+    <img src="" alt="Puna slika" id="lightbox-img">
+</div>
+
+</body>
+</html>
