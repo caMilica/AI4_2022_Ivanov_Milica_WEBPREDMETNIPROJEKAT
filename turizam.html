@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Туризам</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<!--
+    Milica Ivanov AI 4/2022
+    Animacija u inženjerstvu 
+    Predmetni projekat Web dizajn
+-->
+
+
+<!--ovo povezuje css sa html-om-->
+  <link rel="stylesheet" type="text/css" href="PP.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+</head>
+
+
+<body>
+
+<!--pocetak navigacije--> 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"><!--navbar-dark - svetli tekst    bg-dark - tamna pozadina-->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="#"><img src="./slike/logo-no-background.png" alt="logo boljevca" height="50px"></a>
+    </div>
+
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nNavbarDropdown" aria-controls="nNavbarDropdown" aria-expanded="false" aria-aria-label="Navigacija toggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nNavbarDropdown">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><!--ms-auto je poravnao sa desne strane-->
+      <li class="nav-item"><a class="nav-link" href="pocetna.html">Почетна</a></li>
+      <li class="nav-item"><a class="nav-link" href="istorijat.html">Историја</a></li>
+
+
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle active" aria-current="page"  id="navbarDropdown" data-bs-toggle="dropdown" area-expanded="false">
+          Туризам
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="rtanj.html">Ртањ</a></li>  
+          <li><a class="dropdown-item" href="krivivir.html">Криви Вир</a></li>
+          <li><a class="dropdown-item" href="ilino.html">Илино</a></li>
+          <li><a class="dropdown-item" href="bogovina.html">Боговинска пећина</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a href="kulturna dobra.html" class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" area-expanded="false">Култура</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="muzej.html">Музеј</a></li>
+          <li><a class="dropdown-item" href="crkva.html">Црква</a></li>
+          <li><a class="dropdown-item" href="manastiri.html">Манастири</a></li>
+                    <li><a class="dropdown-item" href="crnorecje.html">Црноречје у песми и игри</a></li>
+        </ul>
+      </li>
+
+    </ul>    
+  </div>
+</div>
+</nav>
+<!--ovde je kraj navigacije-->
+
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-1">      
+    </div>
+    <div class="col-sm-10 main-content">
+      <h1 class="manjiNaslov">Туризам</h1>
+
+      <p>
+        Место Бољевац је седиште истоимене општине у Зајечарском округу. Од града Зајечара удаљено је 37 km, од Крагујевца 125 km, а од Београда око 200 km. Општина се налази у Црноречкој котлини, а најзначајнија туристичка атракција овог краја је планина Ртањ, која се нагло издиже изнад котлине и представља јединствен природни феномен.
+        <img class="img-tumbnail rounded float-end" width="35%" src="./slike/rtanj10.jpg"><br>
+        Ртањ привлачи бројне љубитеље природе и планинаре, посебно током Видовданског ноћног успона, који је један од најлепших у земљи и окупља стотине учесника. Традиционално се сваке године одржава и манифестација „Берба ртањског чаја“, која слави биљни свет овог подручја.
+        <br><br>Од осталих природних лепота, у општини се издвајају Боговинска пећина, Илинско врело код села Илина, извор Црног Тимока познат као Пећура код Кривог Вира, као и бројна врела као што су Врело Црног Тимока, Врело Лозица, Врело Бук и Луковско врело. Посебно се истичу и Кучајске планине, са висоравни Велика Брезовица и клисуром Радованске реке, које су прави рај за љубитеље планинарења и нетакнуте природе.
+        Поред природних, општина Бољевац обилује и културно-историјским споменицима. Посебно су значајни манастири Крепичевац код Јабланице, Лапушња код Лукова и Лозица код Кривог Вира. У самом месту Бољевац налазе се Музеј Тимочке буне и црква Светог Илије.
+        Међу бројним манифестацијама, посебно се издваја фестивал народног стваралаштва „Црноречје у песми и игри“, који представља најзначајнији културни догађај у општини и окупља велики број учесника и посетилаца из целог региона.</p>
+    </div>
+    <div class="col-sm-1">
+      
+    </div>
+  </div>
+</div>
+
+
+  <footer class="footer">
+    <p>Милица Иванов, <a href="mailto:milica.ivanov.03@gmail.com"> milica.ivanov.03@gmail.com</a></p>
+  </footer>
+
+<script src="java.js"></script>
+</body>
+</html>
