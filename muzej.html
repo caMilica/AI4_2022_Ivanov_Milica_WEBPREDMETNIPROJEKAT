@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Музеј</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!--
+    Milica Ivanov AI 4/2022
+    Animacija u inženjerstvu 
+    Predmetni projekat Web dizajn
+-->
+
+
+<!--ovo povezuje css sa html-om-->
+  <link rel="stylesheet" type="text/css" href="PP.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+</head>
+
+
+<body>
+
+<!--pocetak navigacije--> 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"><!--navbar-dark - svetli tekst    bg-dark - tamna pozadina-->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="#"><img src="./slike/logo-no-background.png" alt="logo boljevca" height="50px"></a>
+    </div>
+
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nNavbarDropdown" aria-controls="nNavbarDropdown" aria-expanded="false" aria-aria-label="Navigacija toggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nNavbarDropdown">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><!--ms-auto je poravnao sa desne strane-->
+      <li class="nav-item"><a class="nav-link" href="pocetna.html">Почетна</a></li>
+      <li class="nav-item"><a class="nav-link" href="istorijat.html">Историја</a></li>
+
+
+      <li class="nav-item dropdown">
+        <a href="turizam.html" class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" area-expanded="false">
+          Туризам
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="rtanj.html">Ртањ</a></li>  
+          <li><a class="dropdown-item" href="krivivir.html">Криви Вир</a></li>
+          <li><a class="dropdown-item" href="ilino.html">Илино</a></li>
+          <li><a class="dropdown-item" href="bogovina.html">Боговинска пећина</a></li>
+        </ul>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a href="kulturna dobra.html" class="nav-link dropdown-toggle active" id="navbarDropdown" data-bs-toggle="dropdown" area-expanded="false">Култура</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="active"><a class="dropdown-item"  aria-current="page" href="#">Музеј</a></li>
+          <li><a class="dropdown-item" href="crkva.html">Црква</a></li>
+          <li><a class="dropdown-item" href="manastiri.html">Манастири</a></li>
+          <li><a class="dropdown-item" href="crnorecje.html">Црноречје у песми и игри</a></li>
+        </ul>
+      </li>
+
+    </ul>    
+  </div>
+</div>
+</nav>
+<!--ovde je kraj navigacije-->
+
+
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-1">      
+    </div>
+    <div class="col-sm-10 main-content">
+      <h1 class="manjiNaslov">Музеј</h1>
+
+      <ul>
+        <li class="lead"><a href="#dokumenti"><b class="veciBoldovaniTekst">Колекција докумената из 1883. године</b></a></li>
+        <li class="lead"><a href="#buna"><b class="veciBoldovaniTekst">Личности које су имале пресудну улогу у Тимочкој буни</b></a></li>
+        <li class="lead"><a href="#ilustracije"><b class="veciBoldovaniTekst">Илустрације</b></a></li>
+        <li class="lead"><a href="#galerijaMuzej"><b class="veciBoldovaniTekst">Галерија</b></a></li>
+      </ul>      
+
+      <p>
+        Музеј тимочке буне се налази у Бољевцу, у реконструисаној згради Старе апсане. Отворен је на стогодишњицу Тимочке буне, 1983. године и делује под окриљем КОЦ-а Бољевац.<br>
+        Објекат Музеја заузима површину од 104 метара квадратна, дужине 16,5m и ширине 6,3 m. Од 15. маја 1980. године представља непокретно културно добро као споменик културе.<br>
+        Поставка Музеја прати стање пред Тимочку буну, почетак буне, борбу народне и стајаће војске, организацију војске 80-их године 19. века, стање становништва крајем 19. века. Поставку употпуњују портрети најзначајнијих личности везаних за Буну, пре свега вођа Буне, све до угушење Буне које је оличено у Преком суду.<br><br></p>
+
+        <p id="dokumenti">Музеј садржи богату колекцију докумената из 1883. године:</p>
+        <ul>
+          <li>Закон о устројству војске,</li>
+          <li>Указ о разрешењу владе Милана Пироћанца и постављању владе Николе Христића,</li>
+          <li>писмо команданта честобродичког одреда, пуковника Михајла Срећковића главном команданту стајаће војске,</li>
+          <li>Смртне пресуде Преког суда појединим вођама покрета.</li>
+        </ul>
+
+        <p id="buna">Највећи део збирке музеја представљају фотографије личности које су одиграле пресудну улогу у Тимочкој буни:</p>
+        <ul>
+          <li>Краљ Милан Обреновић, за време чије владавине је донет Закон о устројству војске 1883. године након чега је уследило одузимање оружја од војника што је довело до побуне најпре у Лукову где су се побунили и мештани Кривог Вира.</li>
+          <li>фотографије најистакнутијих вођа буне и важних личности које су учествовале буни: Милија Петровић, Добросав Петровић, Љуба Дидић, Аца Станојевић, Љуба Божиновић, Владимир Зебић.</li>
+        </ul>
+
+        <p id="ilustracije">Велики део музеја представљају илустрације са приказима сељака из тог периода, народне војске, стајаће војске и догађаја као што су:</p>
+        <ul>
+          <li>„Предавање оружја”</li>
+          <li>„Читање владине наредбе и позив на изручење оружја”</li>
+          <li>„Напад стајаће војске на народ и народну војску код бањске клисуре”</li>
+        </ul>
+        
+        <p>Своје место у поставци нашла је малобројна уметничка збирка са акварелима и цртежима везаним за Тимочку буну као што су акварели са изгледом сеоске механе у селу Лукову, акварел са изгледом зграде општине у Кривом виру, цртеж са изгледом апсане, цртеж са приказом зграде у којој је одржан договор пре избијања буне.<br>
+
+          Збирка садржи предмете и оружје из тог периода, као и медаље којима су награђени они који су хватали побуњенике.
+          Музејска грађа којом се илуструје Тимочка буна, прикупља се и чува у већ 30 година. У Музеју је изложен и део завичајне збирке где се могу видети преслице, старе вунене чарапе, као и поједини елементи прибора за ручавање. Стална поставка Музеја је 2011. године „освежена” паноима са истраживачком грађом где је акценат стављен на учеснике из Бољевачког среза. 
+        </p>
+
+
+
+<!--
+        Музеј Тимочке буне, отворен је 1983. године на стогодишњицу Тимочке буне. Зграда старе апсане у Бољевцу у којој су током буне били затворени побуњеници из целог црноречког краја, реконструисана је и адаптирана у музејски простор. Објекат је од 15. маја 1980. године под заштитом Завода за заштиту споменика културе, као и остали споменици Тимочке буне, стара општина у Кривом Виру, Поп Милијина кафана у Лукову, кућа Добросава Петровића у Бољевцу и стара школа у Јабланици.
+        Поставка музеја прати стање пред Тимочку буну, почетак буне, борбу народне и стајаће војске, организацију војске 80-их година 19. века, најзначајније личности везане за буну, пре свега вође буне, све до гушења буне оличеног у Преком суду.
+        Музеј садржи богату колекцију докумената из 1883. године. Поред документације, највећи део збирке музеја представљају фотографије личности које су одиграле пресудну улогу у Тимочкој буни.
+        Збирка садржи предмете и оружје из тог периода, као и медаље којима су награђени они који су хватали побуњенике. У Музеју је изложен и део завичајне збирке где се могу видети преслице, старе вунене чарапе, као и поједини елементи прибора за ручавање.
+        Музеј нам пружа комплетан увид у стање у време Тимочке буне, све до њеног слома, али такође нас упућује у начин живота и размишљања људи с краја 19.века.
+        Буна је постала један логичан след догађаја, иако се често назива сељачком буном, ову буну је заправо, подигла интелектуална елита Бољевачког среза, учитељи и свештеници, од којих је већина, своју тежњу за ослобођењем од бирократске власти, платила животом, смртном пресудом и стрељањем на Краљевици.
+        Већ 30 година Музеј прикупља, чува и приказује музејску грађу којом се илуструје Тимочка буна. Стална поставка Музеја је 2011. године освежена паноима са истраживачком грађом где је акценат стављен на учеснике из Бољевачког среза.
+        Музеј Тимочке буне је од великог значаја за историју Бољевца али исто тако и за целокупну националну историју.-->
+
+
+        <p id="galerijaMuzej"><b class="veciBoldovaniTekst">Галерија</b></p>
+        <div class="container">
+          <div class="row">        
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+              <div class="card">
+                <div class="kontejnerSlike">
+                  <img class="card-img-top" src="./slike/muzej1.jpg" alt="muzej1.jpg">
+                  <div class="textSlike">Улаз у Боговинску пећину</div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+              <div class="card">
+                <div class="kontejnerSlike">                
+                  <img class="card-img-top" src="./slike/muzej2.jpg" alt="muzej2.jpg">
+                  <div class="textSlike">Улаз у Боговинску пећину</div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+              <div class="card">
+                <div class="kontejnerSlike">
+                  <img class="card-img-top" src="./slike/muzej3.jpg" alt="muzej3.jpg">
+                  <div class="textSlike">Улаз у Боговинску пећину</div>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+
+
+
+      
+    </div>
+    <div class="col-sm-1">
+      
+    </div>
+  </div>
+</div>
+
+
+  <footer class="footer">
+    <p>Милица Иванов, <a href="mailto:milica.ivanov.03@gmail.com"> milica.ivanov.03@gmail.com</a></p>
+  </footer>
+
+<script src="java.js"></script>
+
+  <div class="lightbox" id="lightbox">
+    <img src="" alt="Puna slika" id="lightbox-img">
+  </div>
+
+</body>
+</html>
