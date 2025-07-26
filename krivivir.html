@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Криви Вир</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<!--
+    Milica Ivanov AI 4/2022
+    Animacija u inženjerstvu 
+    Predmetni projekat Web dizajn
+-->
+
+
+<!--ovo povezuje css sa html-om-->
+  <link rel="stylesheet" type="text/css" href="PP.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+</head>
+
+
+<body>
+
+<!--pocetak navigacije--> 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"><!--navbar-dark - svetli tekst    bg-dark - tamna pozadina-->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="#"><img src="./slike/logo-no-background.png" alt="logo boljevca" height="50px"></a>
+    </div>
+
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nNavbarDropdown" aria-controls="nNavbarDropdown" aria-expanded="false" aria-aria-label="Navigacija toggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nNavbarDropdown">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><!--ms-auto je poravnao sa desne strane-->
+      <li class="nav-item"><a class="nav-link" href="pocetna.html">Почетна</a></li>
+      <li class="nav-item"><a class="nav-link" href="istorijat.html">Историја</a></li>
+
+
+      <li class="nav-item dropdown">
+        <a href="turizam.html" class="nav-link dropdown-toggle active" id="navbarDropdown" data-bs-toggle="dropdown" area-expanded="false">
+          Туризам
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="rtanj.html">Ртањ</a></li>  
+          <li class="active"><a class="dropdown-item"  aria-current="page" href="#">Криви Вир</a></li>
+          <li><a class="dropdown-item" href="ilino.html">Илино</a></li>
+          <li><a class="dropdown-item" href="bogovina.html">Боговинска пећина</a></li>
+        </ul>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a href="kulturna dobra.html" class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" area-expanded="false">Култура</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="muzej.html">Музеј</a></li>
+          <li><a class="dropdown-item" href="crkva.html">Црква</a></li>
+          <li><a class="dropdown-item" href="manastiri.html">Манастири</a></li>
+          <li><a class="dropdown-item" href="crnorecje.html">Црноречје у песми и игри</a></li>
+        </ul>
+      </li>
+
+    </ul>    
+  </div>
+</div>
+</nav>
+<!--ovde je kraj navigacije-->
+
+
+<div>
+  <img src="./slike/izvor-crnog-timoka-pecura.jpg" style="width: 100%; display: block; margin-bottom: 0;"> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-1">      
+    </div>
+    <div class="col-sm-10 main-content">
+      <h1 class="manjiNaslov">Криви Вир</h1>
+
+      <p>
+        Криви Вир је насеље у Србији у општини Бољевац у Зајечарском округу. Према попису из 2022. било је 215 становника (према попису из 1991. било је 802 становника).<br>
+        Криви Вир је место где је избила Тимочка буна, традиционални сточарски крај, где је настао посебан сој овце -- кривовирска жуја
+        <br>Овде се налазе Манастир Лозица и Извор Пећура.
+      </p>
+
+      <ul>
+        <li class="lead"><a href="#istorijaKV"><b class="veciBoldovaniTekst">Историја</b></a></li>
+        <li class="lead"><a href="#galerijaKV"><b class="veciBoldovaniTekst">Галерија</b></a></li>
+      </ul>
+
+
+      <p id="istorijaKV"><b class="veciBoldovaniTekst">Историја</b><br>
+        До 1804, Криви Вир је, као и читава Тимочка крајина (позната у оно време под именом Црна Река), припадао Видинском пашалуку. Почетком године 1807, по заузимању Београда, у Криви Вир је из устаничке Србије стигао хајдук Вељко са неколико стотина бећара, и начинивши у селу шанац као своје главно упориште, побунио је читаву Крајину. По пропасти устанка 1813. Црна Река била је потчињена турском муселиму у Зајечару. Криви Вир је припојен Кнежевини Србији 1833, приликом припајања 6 нахија за владе кнеза Милоша Обреновића, и постао је део Бољевачког среза Црноречког (Зајечарског) округа. Године 1870. село је имало 361 пореску главу (тј. пунолетних сељака који плаћају порез) и отприлике 4 пута више становника (око 1.400).
+      </p>
+      <p><img class="img-tumbnail rounded float-end m-2" width="35%" src="./slike/krivivir3.jpg" alt="krivivir3">
+        Пећура се налази у селу Криви Вир и чини комплекс изворишта Црног Тимока. Овај извор је заправо извориште реке Црни Тимок, који се састоји од два извора који нису међусобно повезани. Главни извор се налази на почетку Пећурске клисуре, одакле вода делом извире испод стена, а делом из пећине и има константан ток воде, са мањим колебањима, али не пресушује. Други извор је слабији и смештен је у малој пећини, близу остатака некадашње воденице и он у летљем периоду често пресушује. На самом изворишту Црног Тимока је пре Другог светског рата функционисала и мала хидроцентрала, која је снабдевала село електричном енергијом. У комплексу Пећура постоје 3 пећине и један термални извор чија је температура воде 21-22 степена Целзијуса. Криви Вир се сматра центром Тимочке буне.
+      </p>
+
+      <p id="galerijaKV"><b class="veciBoldovaniTekst">Галерија</b></p>
+      <div class="container">
+  <div class="row g-4">
+    
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="kontejnerSlike">
+          <img class="card-img-top" src="./slike/krivivir1.jpg" alt="krivivir1">          
+            <div class="textSlike">Пећура - извориште Црног Тимока</div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="kontejnerSlike">
+          <img class="img-tumbnail card-img-top" src="./slike/krivivir2.jpg" alt="krivivir2">
+          <div class="textSlike">Пећура - извориште Црног Тимока</div>         
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="kontejnerSlike">
+          <img class="img-tumbnail card-img-top" src="./slike/krivivir3.jpg" alt="krivivir3">
+          <div class="textSlike">Пећура - извориште Црног Тимока</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="kontejnerSlike">
+          <img class="img-tumbnail card-img-top" src="./slike/krivivir4.jpg" alt="krivivir4">
+          <div class="textSlike">Врело у Кривом Виру</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="kontejnerSlike">
+          <img class="img-tumbnail card-img-top" src="./slike/krivivir5.jpg" alt="krivivir5">
+          <div class="textSlike">Црни Тимок</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+    </div>
+    <div class="col-sm-1">
+      
+    </div>
+  </div>
+</div>
+
+
+  <footer class="footer">
+    <p>Милица Иванов, milica.ivanov.03@gmail.com</p>
+  </footer>
+
+<script src="java.js"></script>
+
+<footer class="footer">
+    <p>Милица Иванов, <a href="mailto:milica.ivanov.03@gmail.com"> milica.ivanov.03@gmail.com</a></p>
+</footer>
+
+<div class="lightbox" id="lightbox">
+    <img src="" alt="Puna slika" id="lightbox-img">
+</div>
+
+</body>
+</html>
